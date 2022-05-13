@@ -13,14 +13,13 @@
 	width: 1110px!important;
 }
 
+
 .banner img{
 	width: 100%;
 	object-fit: cover;
-	margin-top: 0.5rem;
-	margin-bottom: 1rem;
 }
 
-.hotdeal{
+.hotdeal,.hbct,.matdong,.anvat{
 	display: flex;
 	justify-content: space-between;
 }
@@ -233,8 +232,6 @@
 
 .search-block{
 	background-color: #171717;
-	padding-top: 1.5rem;
-	padding-bottom: 1.5rem;
 }
 
 .search{
@@ -265,6 +262,7 @@
 	background-color: #026c3a;
 	cursor: pointer;
 }
+
 .footer{
 	background-color: #016b37;
 	color: white;
@@ -320,4 +318,68 @@
 	width:20px;
 }
 
+@media screen and (max-width: 748px) {
+	.container{
+		width: 100%!important;
+	}
+	.product, .product-2{
+		padding-bottom: 42rem!important;
+	}
+	.product-item{
+		display: none;
+	}
 
+	.carousel-indicators,.carousel-control-prev,.carousel-control-next{
+		display: none!important;
+	}
+
+	.first-prop{
+		display: block!important;
+	}
+	.prop-block{
+		display: block!important;
+		margin-top: -5rem!important;
+	}
+
+	.cont-hotdeal .title-label, .cont-HBCT .title-label,.cont-matdong .title-label,.cont-anvat .title-label {
+		font-size: 1rem;
+	}
+
+	.footer .logo{
+		text-align: center;
+	}
+
+	.footer .info{
+		display: block;
+	}
+
+	.footer div{
+		width: 100%;
+	}
+
+	.footer .thongbao{
+		text-align: right;
+	}
+
+}
+
+@media screen and (max-width: 993px) {
+	.container{
+		width: 100%!important;
+	}
+
+	.product, .product-2{
+		padding-bottom: 30rem;
+	}
+
+	.footer .thongbao img{
+		width: 8rem;
+	}
+
+}
+
+@media screen and (max-width: 1000px) {
+	.col-md{
+		width: 50%!important;
+	}
+}
